@@ -1,0 +1,4 @@
+<div class='gap'>
+  <div [ngClass]="['title clickable', isActivated ? 'underlined' : '']" (click)='selectTab(tabIndex)'>{{tabTitle}}</div>
+  <div *ngIf='isActivated'>{{tabContent}}</div>
+</div>

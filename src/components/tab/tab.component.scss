@@ -1,0 +1,15 @@
+.title {
+  font-size: 1.5em;
+
+  &.clickable {
+    cursor: pointer;
+  }
+
+  &.underlined {
+    text-decoration: underline;
+  }
+}
+
+.gap {
+  margin: 1em;
+}

@@ -1,0 +1,5 @@
+<div class='flex'>
+  <div *ngFor='let tab of DEFAULT_TABS; let index = index;'>
+    <app-tab [tabTitle]='tab.title' [tabContent]='tab.content' [tabIndex]='index'></app-tab>
+  </div>
+</div>
